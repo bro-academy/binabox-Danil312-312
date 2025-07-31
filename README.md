@@ -1,4 +1,4 @@
-# binabox-Danil312-312
+Binabox
 
 Student: Danil 
 Mentor: Viacheslav
