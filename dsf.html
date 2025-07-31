@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Centered Text</title>
+  <style>
+
+    .container {
+      position: relative;
+      display: inline-block;
+      width: 720px;
+    } 
+    .container {
+      position: relative;
+      display: inline-block;
+    }
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+
+    .centered-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(212, 10, 10); 
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: 1px 1px 5px black;
+    }
+  </style>
+</head>
+<body>
+     <div class="container">
+    <img src="hq720.jpg" alt="Image" class="image" />
+    <div class="centered-text">Твой текст</div>
+
+</body>
+</html>
