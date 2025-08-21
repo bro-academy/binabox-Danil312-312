@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BINABOX</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body style="margin:0; font-family:sans-serif; background:#0e0e15; color:white;">
     <header>
-        <h1>BINABOX</h1>
+         <a href="/home" class="logo">BINABOX</a>
         <nav>
             <a href="/home">Home</a>
             <a href="/blog">Blog</a>
@@ -21,53 +22,57 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>WITH BINABOX EXPLOER NFT COLLECTION </h2>
+        <section class="banner">
+            <h1 class="banner__title">WITH <spanc lass="banner__title-highlighted">BINABOX</span> EXPLOER NFT COLLECTION </h1>
             <p>We are the best way to check the rarity of NFT collection</p>
             <p>Total Item: <strong>2200+</strong></p>
             <p>Profiles whitelisted: <strong>1000+</strong></p>
             <div>
-                <button>Connect Wallet</button>
-                <button>Whitelist now</button>
+                <button class="banner__button">Connect Wallet</button>
+                <button class="banner__link">Whitelist now</button>
             </div>
         </section>
         <section>
-            <h2>Catalog</h2>
-            <a href="/catalog">See all</a>
-            <button></button>
-            <button></button>
-            <ul>
-                <li>
-                    <img src="1.png" width="252" height="324" alt="Product">
-                    <span class="label">New</span>
-                    <div>$1990</div>
-                    <p>Echo of Bones</p>
-                </li>
-                <li>
-                    <img src="2.png" width="252" height="324" alt="Product">
-                    <span class="label">New</span>
-                    <p>$2390</p>
-                    <p>Nyx the Watcher</p>
-                </li>
-                <li>
-                    <img src="3.png" width="252" height="324" alt="Product">
-                    <span class="label">Sold out</span>
-                    <p>$20</p>
-                    <p>Blade of silence</p>
-                </li>
-                <li>
-                    <img src="4.png" width="252" height="324" alt="Product">
-                    <span class="label">New</span>
-                    <p>$1,000,000</p>
-                    <p>Data Core: Alpha</p>
-                </li>
-                <li>
-                    <img src="5.png" width="252" height="324" alt="Product">
-                    <span class="label">New</span>
-                    <p>$199.5</p>
-                    <p>Phantom cansole</p>
-                </li>
-            </ul>
+            <header>
+                <h2>Catalog</h2>
+                <a href="/catalog">See all</a>
+                <button></button>
+                <button></button>
+                <ul>
+                    <li>
+                        <article>
+                            <img src="1.png" width="252" height="324" alt="Product">
+                            <span class="label">New</span>
+                            <p>$1990</p>
+                            <p>Echo of Bones</p>
+                        </article>
+                    </li>
+                    <li>
+                        <img src="2.png" width="252" height="324" alt="Product">
+                        <span class="label">New</span>
+                        <p>$2390</p>
+                        <p>Nyx the Watcher</p>
+                    </li>
+                    <li>
+                        <img src="3.png" width="252" height="324" alt="Product">
+                        <span class="label">Sold out</span>
+                        <p>$20</p>
+                        <p>Blade of silence</p>
+                    </li>
+                    <li>
+                        <img src="4.png" width="252" height="324" alt="Product">
+                        <span class="label">New</span>
+                        <p>$1,000,000</p>
+                        <p>Data Core: Alpha</p>
+                    </li>
+                    <li>
+                        <img src="5.png" width="252" height="324" alt="Product">
+                        <span class="label">New</span>
+                        <p>$199.5</p>
+                        <p>Phantom cansole</p>
+                    </li>
+                </ul>
+            </header>    
         </section>
         <section>
             <h2>Our Blog</h2>
@@ -88,8 +93,7 @@
                     <p>Kairo Null</p>
                     <p>06 Dec 2022</p>
                     <h3>Deadframe</h3>
-                    <p>He just stood there, waiting. Not for a person — for a signal. Like the memory of the network
-                        took shape.</p>
+                    <p>He just stood there, waiting. Not for a person — for a signal. Like the memory of the network took shape.</p>
                     <a href="#">Read more</a>
                 </li>
                 <li>
@@ -107,8 +111,7 @@
                     <p>Dr. Wex Omega</p>
                     <p>08 Dec 2022</p>
                     <h3>Primal.exe</h3>
-                    <p>We tried to resurrect the past. What we got was rage compressed into an algorithm.
-                    </p>
+                    <p>We tried to resurrect the past. What we got was rage compressed into an algorithm.</p>
                     <a href="#">Read more</a>
                 </li>
                 <li>
@@ -225,7 +228,7 @@
             </article>
         </section>
         <section>
-            <h3>FAQs</h3>
+            <h2>FAQs</h2>
             <details>
                 <summary>What are the NFTs?</summary>
                 <p>NFTs (non-fungible tokens) are unique digital objects stored on the blockchain. They can be art,
@@ -246,11 +249,12 @@
             </details>
         </section>
     </main>
-    <footer>
+</body>
+ <footer>  
         <h2>BINABOX</h2>
         <p>We are the best way to check the rarity of NFT collection.</p>
-        <nav>
-            <h4>Navigation</h4>
+        <h3>Navigation</h3>
+        <nav class="navigation">
             <ul>
                 <li><a href="/home">Home</a></li>
                 <li><a href="/blog">Blog</a></li>
@@ -262,16 +266,18 @@
                 <li><a href="/help">Help Center</a></li>
             </ul>
         </nav>
-        <div>
-            <h4>BINABOX 2022 - ALL rights reserved</h4>
-            <a href="https://twitter.com">Twitter</a>
-            <a href="https://facebook.com">Facebook</a>
-            <a href="https://telegram.com">Telegram</a>
-            <a href="https://youtube.com">YouTube</a>
-            <a href="https://tiktok.com">TikTok</a>
-            <a href="https://discord.com">Discord</a>
+        <p>BINABOX 2022 – ALL rights reserved</p>
+        <div class="footer-links">
+            <ul class="social-links">
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://telegram.com">Telegram</a></li>
+                <li><a href="https://youtube.com">YouTube</a></li>
+                <li><a href="https://tiktok.com">TikTok</a></li>
+                <li><a href="https://discord.com">Discord</a></li>
+            </ul>
         </div>
     </footer>
-</body>
+
 
 </html>
